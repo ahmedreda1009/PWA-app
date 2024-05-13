@@ -1,0 +1,203 @@
+body {
+	/* background-color: #222; */
+	background-color: #f7fffc;
+	color: #fff;
+	/* font-family: Helvetica, sans-serif; */
+	font-family: "Nunito", Helvetica, sans-serif;
+}
+
+#main-card {
+	max-width: 500px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: #3b3b3b;
+	padding: 20px;
+	border-radius: 20px;
+	border: 2px solid #7fffd4;
+	box-shadow: 1px 1px 2px 0px #3b3b3b;
+}
+
+header {
+	text-align: center;
+	background-color: #7fffd49f;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 35px;
+	font-weight: bold;
+}
+.todos-box {
+	min-height: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.todo-card {
+	border: 2px solid #7fffd4;
+	border-radius: 15px;
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.todo-card .content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.todo-card.checked {
+	opacity: 0.5;
+}
+
+.todo-card.checked .text {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.todo-card button {
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 50%;
+	border: none;
+	width: 25px;
+	height: 25px;
+}
+
+.todo-card .date {
+	font-size: 10px;
+	opacity: 0.8;
+}
+
+.add-new-todo-card {
+	background-color: #7fffd49f;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.add-new-todo-card h3 {
+	background-color: #3b3b3b;
+	padding: 20px;
+	border-radius: 20px;
+	margin-top: 0;
+	text-align: center;
+}
+
+.add-new-todo-card form > * {
+	margin-bottom: 10px;
+}
+
+.add-new-todo-card form input,
+.add-new-todo-card form select {
+	border-radius: 5px;
+	height: 25px;
+	border: 1px solid #3b3b3b;
+}
+
+.add-new-todo-card form .title {
+	display: flex;
+	align-items: center;
+}
+
+.add-new-todo-card form label {
+	min-width: 60px;
+	font-weight: bold;
+}
+
+.add-new-todo-card form .title input {
+	flex-grow: 1;
+}
+
+.add-new-todo-card form .time {
+	display: flex;
+	justify-content: space-between;
+	gap: 15px;
+}
+
+.add-new-todo-card form .time > * {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
+.add-new-todo-card form .time > * input {
+	width: 100%;
+}
+
+.add-new-todo-card form .date {
+	display: flex;
+	gap: 15px;
+}
+
+.add-new-todo-card form .date > * {
+	flex: 1;
+}
+
+.add-new-todo-card form .date > * input,
+.add-new-todo-card form .date > * select {
+	width: 100%;
+	margin-top: 3px;
+}
+
+.add-new-todo-card form .submit {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.add-new-todo-card form .submit input {
+	width: 250px;
+	height: 40px;
+	font-weight: bold;
+	background-color: #3b3b3b;
+	color: #7fffd4;
+	font-size: 22px;
+	cursor: pointer;
+	transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.add-new-todo-card form .submit input:hover {
+	box-shadow: 1px 1px 5px 0px #7a7a7a;
+	color: #cfffef;
+}
+
+footer {
+	display: flex;
+	gap: 10px;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+footer > * {
+	flex: 1;
+}
+
+footer ul {
+	list-style-position: inside;
+	padding: 0;
+	margin: 0;
+	max-height: 50px;
+	overflow: auto;
+}
+
+.noti-btn {
+	text-align: center;
+}
+
+.noti-btn button {
+	width: 230px;
+	height: 40px;
+	border-radius: 8px;
+	background-color: #dadada;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+.noti-btn button:hover {
+	background-color: #7fffd4;
+}

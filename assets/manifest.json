@@ -1,0 +1,25 @@
+{
+	"theme_color": "#3b3b3b",
+	"background_color": "#3b3b3b",
+	"icons": [
+		{
+			"purpose": "maskable",
+			"sizes": "512x512",
+			"src": "todo.png",
+			"type": "image/png"
+		},
+		{
+			"purpose": "any",
+			"sizes": "512x512",
+			"src": "todo.png",
+			"type": "image/png"
+		}
+	],
+	"orientation": "any",
+	"display": "standalone",
+	"dir": "auto",
+	"lang": "en-US",
+	"name": "Todo!",
+	"short_name": "Todo!",
+	"start_url": "/index.html"
+}
